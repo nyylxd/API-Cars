@@ -1,0 +1,27 @@
+{
+  "name": "api-cars",
+  "version": "3.0.0",
+  "description": "🚗 Ultimate Car Database API — 32,000+ vehicles, Brazilian market, flex-fuel, global brands, real photos",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "seed-brasil": "node src/seed-brasil.js",
+    "fix-data": "node src/fix-data.js",
+    "import-carapis": "node src/import-carapis.js",
+    "fetch-images": "node src/fetch-images.js",
+    "fetch-images2": "node src/fetch-images2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
